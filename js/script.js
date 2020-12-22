@@ -73,11 +73,11 @@ function reg(obj){
   alert("Ви ввели: " + s);
   var rarr=document.getElementsByName("group");
   if(rarr[0].checked) {
-    obj.regname.value = "Група 234";
+    obj.regname.value = "Група 234 " + "Прізвище: " + s;
   } else if(rarr[1].checked) {
-    obj.regname.value = "Група 235";
+    obj.regname.value = "Група 235 " + "Прізвище: " + s;
   } else if(rarr[2].checked) {
-    obj.regname.value = "Група 236";
+    obj.regname.value = "Група 236 " + "Прізвище: " + s;
   }
 }
 
